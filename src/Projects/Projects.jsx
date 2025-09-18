@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Projects.css';
-import Ecommerce from '../assets/Ecommerce.png';
-import Grocery from '../assets/Grocery.png';
-import messho from '../assets/meesho.png';
+import Ecommerce from '../assets/Ecommerce.PNG';
+import Grocery from '../assets/Grocery.PNG';
+import messho from '../assets/meesho.PNG';
 import gym from '../assets/gym.PNG';
 import bollyfilix from '../assets/bollyfilix.PNG';
 import chess from '../assets/chess.PNG';
