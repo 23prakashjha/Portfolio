@@ -7,33 +7,39 @@ const Hero = () => {
   return (
     <div className='hero' id='hero'>
       <img src={back} alt='Prakash Jha Profile' className='hero-img' />
-      
+
       <h1>
-        I'm Prakash Jha,{" "} 
+        I'm Prakash Jha,{" "}
         <ReactTyped
-        className="typed-text"
+          className="typed-text"
           strings={[
             'Full Stack Developer',
             'Frontend Developer',
             'Backend Developer',
-            'coder',
+            'Coder',
             'Traveller',
-          ]} 
+          ]}
           typeSpeed={50}
           backSpeed={30}
           loop
         />
       </h1>
 
-      <p>I am a Full stack Developer skilled in <strong>Frontend Technologies</strong><br/> such as HTML, CSS,and JavaScript,and<strong>backend technologies</strong>  as Node.js, Express.js <br/> creating interactive web experiences. I'm passionate about blending design aesthetics with functionality.<br/> And I'm current master in <strong>MCA</strong> from Gurugram University.
-
-</p>
+      <p>
+        I am a Full Stack Developer skilled in <strong>Frontend Technologies</strong><br />
+        such as HTML, CSS, and JavaScript, and <strong>Backend Technologies</strong> like Node.js, Express.js.<br />
+        I create interactive web experiences and I'm passionate about blending design aesthetics with functionality.<br />
+        Currently pursuing <strong>MCA</strong> from Gurugram University.
+      </p>
 
       <div className="hero-action">
-        <button className="hero-connect">Connect With Me</button>
+        {/* Change button to anchor tag for proper navigation */}
+        <a href="#contact" className="hero-connect">Connect With Me</a>
+
+        {/* Resume download button */}
         <a
           className="hero-resume"
-          href="/resume.pdf"
+          href="/prakash_resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -44,4 +50,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
