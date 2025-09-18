@@ -19,7 +19,7 @@ const projectData = [
     title: 'Grocery Website',
     image: Grocery,
     description: 'This is a full-stack Grocery website with cart, ordering, and content features.',
-    live: 'https://your-grocery-live-link.com', // Replace with actual live link
+    live: 'https://grocery-app-seven-pearl.vercel.app/', // Replace with actual live link
     code: 'https://github.com/23prakashjha/Grocery-App.git',
   },
   {
